@@ -1,0 +1,14 @@
+{
+  "name": "promise-test",
+  "version": "1.0.0",
+  "description": "test my promise code whether compliant promise A+ or not",
+  "main": "index.js",
+  "author": "jx",
+  "license": "MIT",
+  "dependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  },
+  "scripts": {
+    "test": "promises-aplus-tests test/my-adapter"
+  }
+}
